@@ -1,0 +1,16 @@
+{
+  "name": "ui-studies",
+  "private": true,
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/josecatalani/ui-studies.git",
+  "author": "José Victor Catalani <josevictorcatalani@gmail.com>",
+  "license": "MIT",
+  "workspaces": [
+    "studies/*"
+  ],
+  "scripts": {
+    "start:temperature-converter": "yarn workspace temperature-converter start",
+    "start:autocomplete": "yarn workspace autocomplete start"
+  }
+}

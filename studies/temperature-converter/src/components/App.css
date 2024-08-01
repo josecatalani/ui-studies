@@ -1,0 +1,37 @@
+html,
+body {
+  background: lightgrey;
+  height: 100vh;
+  font-size: 16px;
+}
+
+#main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+#temperature-box-wrapper {
+  display: flex;
+  gap: 5px;
+}
+
+.temperature-box {
+  text-align: center;
+}
+
+.temperature-box input {
+  background-color: #ddd;
+  border: 1px solid grey;
+  padding: 5px 0;
+  font-size: 1.5rem;
+  text-align: center;
+  border-radius: 5px;
+  outline: none;
+}
+
+.temperature-box-header {
+  padding-top: 5px;
+  font-size: 1.2rem;
+}
