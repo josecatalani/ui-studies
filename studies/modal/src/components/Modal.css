@@ -1,0 +1,68 @@
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+#modal {
+  width: 100vw;
+  height: 100vh;
+  position: relative;
+  overflow: hidden;
+}
+
+#mask {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+#container {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  padding: 25px;
+  opacity: 0;
+}
+
+#container.fade-in {
+  animation: fadeIn 0.5s ease-in-out forwards;
+}
+
+#content {
+  flex: 1;
+  padding: 10px 0;
+  overflow-y: auto;
+}
+
+header {
+  padding: 10px 0;
+  border-bottom: 1px solid black;
+}
+
+footer {
+  padding: 10px 0;
+  border-top: 1px solid black;
+}
+
+@media only screen and (min-width: 1024px) {
+  #container {
+    width: 50vw;
+    height: 50vh;
+    left: 50%;
+    top: 50%;
+    padding: 25px;
+    transform: translateX(-25vw) translateY(-25vh);
+    border-radius: 20px;
+  }
+}
