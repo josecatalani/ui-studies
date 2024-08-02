@@ -1,0 +1,19 @@
+#search-input {
+  display: block;
+  border: 0;
+  border-radius: 20px;
+  outline: 0;
+  font-size: 1.5rem;
+  padding: 25px 35px;
+  background-color: var(--primary-d-10);
+  color: white;
+  flex: 1;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+#search-input.results-is-open {
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+}
