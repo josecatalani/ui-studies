@@ -12,6 +12,7 @@
   "scripts": {
     "start:temperature-converter": "yarn workspace temperature-converter start",
     "start:autocomplete": "yarn workspace autocomplete start",
+    "start:autocomplete-ii": "yarn workspace autocomplete-ii start",
     "start:modal": "yarn workspace modal start"
   }
 }

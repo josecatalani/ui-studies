@@ -2837,6 +2837,19 @@ at-least-node@^1.0.0:
   resolved "https://registry.npmjs.org/at-least-node/-/at-least-node-1.0.0.tgz"
   integrity sha512-+q/t7Ekv1EDY2l6Gda6LLiX14rU9TV20Wa3ofeQmwPFZbOMo9DXrLbOjFaaclkXKWidIaopwAObQDqwWtGUjqg==
 
+"autocomplete-ii@file:/home/josecatalani/Projetos/ui-studies/studies/autocomplete-ii":
+  version "0.1.0"
+  resolved "file:studies/autocomplete-ii"
+  dependencies:
+    "@testing-library/jest-dom" "^5.17.0"
+    "@testing-library/react" "^13.4.0"
+    "@testing-library/user-event" "^13.5.0"
+    cra-template "1.2.0"
+    react "^18.3.1"
+    react-dom "^18.3.1"
+    react-scripts "5.0.1"
+    web-vitals "^2.1.4"
+
 "autocomplete@file:/home/josecatalani/Projetos/ui-studies/studies/autocomplete":
   version "0.1.0"
   resolved "file:studies/autocomplete"
@@ -6813,7 +6826,6 @@ mkdirp@~0.5.1:
     "@testing-library/jest-dom" "^5.17.0"
     "@testing-library/react" "^13.4.0"
     "@testing-library/user-event" "^13.5.0"
-    cra-template "1.2.0"
     react "^18.3.1"
     react-dom "^18.3.1"
     react-scripts "5.0.1"
